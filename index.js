@@ -19,7 +19,7 @@ function currentLine(katzDeliLine) {
   if (katzDeliLine.length>0) {
     var currentLineStr = "The line is currently: ";
     for (let i=1;i<=katzDeliLine.length;i++) {
-      currentLineStr = currentLineStr + i +". " + katzDeliLine[i]+", ";
+      currentLineStr = currentLineStr + i +". " + katzDeliLine[i-1]+", ";
     }
     return currentLineStr;
   } else {
