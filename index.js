@@ -5,5 +5,9 @@ function takeANumber(katzDeliLine, newPerson) {
 }
 
 function nowServing(katzDeliLine) {
-  if (katzDeliLine[0])
+  if (katzDeliLine.length>0){
+    
+  } else {
+    return "There "
+  }
 }
