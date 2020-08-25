@@ -24,6 +24,7 @@ function currentLine(katzDeliLine) {
     for (let i=0;i<katzDeliLine.length;i++) {
       currentLineStr = currentLineStr + "${i}. ${katzDeliLine[i]}, ";
     }
+    return currentLineStr;
   }
   
 }
